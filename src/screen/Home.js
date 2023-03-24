@@ -240,7 +240,7 @@ const styles = StyleSheet.create({
     color: colors.gray,
   },
   learnMoreWrapper: { marginTop: 10 },
-  learnMoreTitle: { fontSize: 24, color: colors.black, marginHorizontal: 20 },
+  learnMoreTitle: { fontSize: 24, color: colors.black, marginHorizontal: 20 ,fontWeight: "bold"},
   learnMoreItemWrapper: { paddingVertical: 20 },
   learnMoreItem: {
     width: 170,
@@ -250,7 +250,7 @@ const styles = StyleSheet.create({
   },
   learnMoreImage: { borderRadius: 20 },
   learnMoreItemText: {
-    fonSize: 18,
+    fontSize: 18,
     color: colors.white,
     marginVertical: 20,
     marginHorizontal: 10,
